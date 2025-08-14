@@ -1,12 +1,14 @@
-
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
 
 const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
-  )
-}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Login" element={<Login />} />
+    </Routes>
+  );
+};
 
-export default App
+export default App;
