@@ -11,6 +11,10 @@
   z-index: 1;
 }
 
+.navbar-dark {
+  background-color: #191919;
+}
+
 .navbar-left {
   display: flex;
   align-items: center;
