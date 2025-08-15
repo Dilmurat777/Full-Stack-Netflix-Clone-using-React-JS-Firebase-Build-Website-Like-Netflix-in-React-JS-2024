@@ -14,7 +14,7 @@ const Home = () => {
       <div className="hero">
         <img src={hero_banner} alt="banner-img" className="banner-img" />
         <div className="hero-caption">
-          <img src={hero_title} alt="caption-img" className="caption-img" />
+          <img src={hero_title} alt="" className="caption-img" />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus aperiam, molestias
             cumque odit, sint voluptatibus et reiciendis iusto perferendis velit assumenda vel,
